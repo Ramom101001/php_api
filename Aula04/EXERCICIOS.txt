@@ -1,0 +1,30 @@
+1) Crie uma função "inverter" que retorne uma string
+   invertida, fornecida como argumento. Para isso, não
+   utilize uma função "pronta" do PHP que faça isso.
+
+2) Crie uma função "sobrenomePrimeiro" que receba um
+   nome no formato "Ana de Souza" e retorne o nome no
+   formato "de Souza, Ana".
+
+3) Crie uma função "palindromos" que receba duas strings
+   e retorne true se uma string for igual à outra invertida.
+   Compare-as de forma insensível à maiúsculas e minúsculas.
+   DICA: Considere reutilizar a função do exercício 1.
+
+4) Faça uma função "emailValido" que receba um e-mail e
+   retorne true caso: (i) O e-mail contiver arroba (@);
+   (ii) Arroba não for o último, nem o primeiro caractere;
+   (iii) Há um ponto após o arroba, mas esse não deve
+   ser o último caractere, nem o caractere seguinte ao arroba;
+   (iv) O e-mail possui até 100 caracteres.
+
+DESAFIO PARA CASA:
+
+Crie uma função "transformarEmNome" que receba um
+   nome qualquer (em letras maiúsculas, minúsculas, ou
+   misturadas) e um array de exceções, contendo palavras
+   que devem ser mantidas, em letras minúsculas, tal como "da"
+   "de", "do", etc. Todas as palavras, exceto as exceções, devem    ficar com o primeiro caractere em maiúsculo e as demais em    minúsculas. Por exemplo:
+   transformarEmNome( 'ANA DE SOUZA', [ 'de', 'da' ] )
+     deve retornar "Ana de Souza" (ou seja, o "de" ficar em
+     minúsculas).

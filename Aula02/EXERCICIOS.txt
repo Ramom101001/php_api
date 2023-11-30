@@ -1,0 +1,52 @@
+EXERCÍCIOS
+
+1) Solicite do usuário o número de um mês. Se o mês estiver no segundo
+semestre, imprima o nome por extenso, conforme os valores do array.
+Do contrário, informe que o mês não está no segundo semestre.
+
+2) Crie uma função mudarSeparadorData que receba uma data
+no formato "dd/mm/aaaa" e um separador e retorne a data
+com o separador indicado. Exemplo:
+mudarSeparadorData( '17/08/2023', '-' ) deve retornar
+'17-08-2023'.
+
+3) Crie uma função dataPorExtenso que receba uma data no
+formato "dd/mm/aaaa" e retorne a data com o mês por
+extenso, no formato "dd de mês de aaaa", ex.:
+'17/08/2023' deve retornar '17 de Agosto de 2023'
+
+4) Modifique o código abaixo para imprimir os índices.
+
+$produtos = [ 'Banana', 'Maçã', 'Abacate' ];
+foreach ( $produtos as $indice => $valor )
+    echo $indice, '=>', $valor, PHP_EOL;
+}
+
+5) Crie um array de frutas como o do exercício anterior.
+Solicite do usuário o nome de uma fruta e, utilizando
+foreach, verifique se o nome informado está contido no
+array de frutas. Se estiver, imprima "encontrado" e
+interrompa a execução do laço. Se não for encontrado,
+imprima "não encontrado".
+
+6) Modifique o exercício anterior para imprimir a posição
+que o elemento está no array. Por exemplo:
+"Encontrado no índice 3"
+
+7) Utilize o array de frutas do exercício anterior.
+Leia do usuário o nome de uma fruta a ser excluída do
+array. Caso a fruta seja encontrada, exclua-a do array.
+Do contrário, imprima "não encontrada".
+Na última linha de código do arquivo, imprima o array. <<<
+
+8 ) Crie um menu com as opções abaixo, que devem ser exibidas
+sempre que o usuário não digitar uma das opções indicadas:
+  MENU: 0) Sair  1) Listar  2) Cadastrar
+Solicite do usuário a opção desejada. Caso a escolha seja
+"1", liste todas as frutas existentes, com seus índices.
+Se "2", solicite uma fruta e a inclua no array de frutas.
+
+9) Adicione ao programa uma opção para remover uma fruta.
+
+10) Adicione ao programa uma opção para alterar uma fruta.
+A nova fruta deve ocupar o mesmo índice do array.

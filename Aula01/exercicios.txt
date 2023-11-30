@@ -1,0 +1,24 @@
+EXERCÍCIOS
+
+1) Crie um arquivo "maior-de-dois.php" que contenha uma função "maiorDeDois"
+   que retorne o maior de dois números recebidos como argumento. Após checar
+   a função, comente o código de verificação.
+
+2) Crie um arquivo "maior-de-tres.php" que contenha uma função "maiorDeTres"
+   que retorne o maior de três números recebidos como argumento. Para isso,
+   utilize a função "maiorDeDois", importando o arquivo usando require_once,
+   assim:
+        require_once 'maior-de-dois.php';
+
+3) Crie um arquivo "menu.php" que exiba o menu abaixo para o
+   usuário:
+    1) Maior de dois
+    2) Maior de três
+    3) Sair
+   Leia a resposta do usuário.
+   Se opção escolhida for "1" ou "2", solicite do usuário os
+   números e utilize as funções criadas anteriormente para
+   imprimir o maior deles.
+   Se a opção escolhida for "3", finalize o programa.
+   Caso contrário, exiba novamente o menu para o usuário,
+   solicitando sua resposta.

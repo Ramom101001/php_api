@@ -1,0 +1,33 @@
+EXERCÍCIOS
+1) Crie uma classe de exceção VendaException que represente
+   uma exceção ocorrida em uma Venda ou em um Item de Venda.
+a) Modifique Venda para lançar essa exceção quando for
+   fornecido uma posição negativa em removerItemNaPosicao().
+b) Modifique Venda para lançar essa exceção quando for fornecido
+   um item nulo em adicionarItem().
+
+2) Modifique o código da questão 1 de forma que a classe
+   criada pertença ao namespace "excecoes". Então, atualize
+   quem utiliza a classe de acordo.
+
+-------------------------------------------------------------
+HOMEWORK:
+
+1) Modifique Produto adicionando o atributo "codigo", com seu
+   getter e setter, e um método paraArray() que
+   retorne os dados do produto como um array chave-valor.
+2) Implemente o método paraArray() em ProdutoTributado.
+3) Crie uma classe RepositorioProduto que possua:
+   (a) o método salvar( Produto $p ), que deve ser capaz de
+   salvar o produto em um arquivo JSON nomeado com o código
+   do produto, ex. "001.json";
+   (b) o método produtoComCodigo( $codigo ):? Produto, que deve
+   ser capaz de ler o produto de um arquivo JSON nomeado com
+   o seu código.
+   Faça com que erros ao salvar ou ler o produto lancem a exceção
+   RepositorioException.
+   Observações: (1) Para ler o conteúdo de um arquivo texto:
+   $conteudo = file_get_contents( 'nome-do-arquivo.extensao' );
+   (2) Para transformar um objeto em json:
+   json_encode( $objeto ): string
+
